@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: block;
+}
+
+.header ul {
+    list-style-type: none;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.header ul li {
+    float: right;
+    margin: 15px;
+    padding: 5px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.header ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    text-align: center;
+    margin: 50px;
+}
+
+.search-area {
+    margin: 0 auto;
+    height: 50px;
+    width: 600px;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+}
+
+.search-area .search-img {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 15px 0px 0px 15px;
+    fill: currentColor;
+    color: #9aa0a6;
+}
+
+.search-area .input-area {
+    float: left;
+    height: 50px;
+}
+
+.search-area .input-area input {
+    height: 34px !important;
+    width: 520px;
+    margin: 8px 0px 0px 10px;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    cursor: text;
+    border: none;
+    font: 16px arial, sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-rendering: auto;
+    appearance: textfield;
+}
+
+.search-area:hover {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.search-voice {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 15px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.buttons {
+    width: 260px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 160px;
+}
+
+.buttons button {
+    padding: 7px;
+    border: 1px solid #f2f2f2;
+    font: 14px arial, sans-serif;
+    height: 36px;
+    background-color: #f8f9fa;
+}
+
+.buttons button:hover {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.buttons button a {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+.footer {
+    width: 100%;
+    background-color:  #f2f2f2;
+    height: 40px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer ul li {
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+.footer ul li a {
+    display: block;
+    height: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: #5f6368;
+    text-align: center;
+}
